@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+data/*.csv
+__pycache__/
+.ipynb_checkpoints/
+
+# keep model for deploy
+artifacts/*
+!artifacts/model.joblib
