@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 from pathlib import Path
+from iqr_clipper import IQRClipper
 
 st.set_page_config(page_title="Wine Quality Predictor", layout="centered")
 

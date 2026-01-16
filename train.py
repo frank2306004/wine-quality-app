@@ -2,7 +2,7 @@
 # Train leak-free pipeline model and save to artifacts/model.joblib
 # Dataset: UCI Wine Quality (red + white)
 # Label: binary (0 if quality<=5, 1 if quality>=6)
-
+from iqr_clipper import IQRClipper
 import os
 import warnings
 warnings.filterwarnings("ignore")
